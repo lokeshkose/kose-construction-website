@@ -165,7 +165,7 @@ const Header = () => {
 
   const menuItems = [
     { key: 'home', label: 'HOME', link: '/' },
-    { key: 'products', label: 'SERVICES', link: `/${locale}/services` },
+    { key: 'servicess', label: 'SERVICES', link: `/${locale}/services` },
     { key: 'ourWorks', label: 'OUR WORKS', link: `/${locale}/our_works` },
     { key: 'about', label: 'ABOUT', link: `/${locale}/about` },
     { key: 'contactUs', label: 'CONTACT US', link: `/${locale}/contact` },
