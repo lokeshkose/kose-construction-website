@@ -10,7 +10,7 @@ import ContactUsCard from "@/components/common/ContactUsCard";
 import L from "leaflet";
 const ContactPage = () => {
   const { t } = useTranslation("common");
-  const position: [number, number] = [22.704, +75.9412];
+  const position: [number, number] = [21.861, 77.789];
 
   const SetView = ({ center }: { center: [number, number] }) => {
     const map = useMap();
@@ -53,7 +53,7 @@ const ContactPage = () => {
           </Col>
         </Row>
         {/* Map Section */}
-        <Row gutter={[16, 16]} justify="center" style={{ marginTop: "4rem" }}>
+        <Row gutter={[16, 16]} justify="center" style={{ paddingBottom: "30px"}}>
           <Col xs={24} sm={22} md={20} lg={18} xl={16}>
             <MapContainer
               center={position}
@@ -68,7 +68,7 @@ const ContactPage = () => {
               />
               <Marker position={position} icon={customIcon}>
                 <Popup>
-                  {t("Our Office Location in Indore Madhya Pradesh, India")}
+                  {t("Kose Construction Office, Betul, MP")}
                 </Popup>
               </Marker>
             </MapContainer>

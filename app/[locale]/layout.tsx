@@ -68,7 +68,6 @@ export default function RootLayout({
                     flex: 1,
                     minHeight: 'auto',
                     position: 'relative',
-                    top: '-68px',
                   }}>
                   {children}
                 </AntLayout.Content>

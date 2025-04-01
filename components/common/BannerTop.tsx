@@ -267,7 +267,7 @@ const BannerTop: React.FC<BannerSectionProps> = ({
           lg={{ span: 16, offset: 4 }}
           xl={{ span: 16, offset: 4 }}>
           <article className={styles['text-content']}>
-            <DirectionAnimation
+            {/* <DirectionAnimation
               id='dfsdfsfs'
               start={200}
               end={0}
@@ -278,9 +278,9 @@ const BannerTop: React.FC<BannerSectionProps> = ({
                 level={1}>
                 {title}
               </Title>
-            </DirectionAnimation>
+            </DirectionAnimation> */}
 
-            {breadcrumbs && (
+            {/* {breadcrumbs && (
               <Breadcrumb
                 separator=' / '
                 className={styles['breadcrumb']}>
@@ -292,9 +292,9 @@ const BannerTop: React.FC<BannerSectionProps> = ({
                   </Breadcrumb.Item>
                 ))}
               </Breadcrumb>
-            )}
+            )} */}
 
-            {!breadcrumbs && (
+            {/* {!breadcrumbs && (
               <>
                 <Paragraph style={{ fontSize: screens.md ? '25px' : '20px' }}>
                   {description}
@@ -309,7 +309,7 @@ const BannerTop: React.FC<BannerSectionProps> = ({
                   </Button>
                 )}
               </>
-            )}
+            )} */}
           </article>
         </Col>
       </Row>

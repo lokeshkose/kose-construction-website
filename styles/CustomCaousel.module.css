@@ -1,0 +1,36 @@
+/* Container for the carousel */
+.carouselContainer {
+  width: 100%;
+  max-width: 100%; /* Ensure full width for responsiveness */
+  margin: 0 auto; /* Center align the carousel */
+  height: 700px;
+}
+
+/* Individual carousel item */
+.carouselItem {
+  display: flex;
+  justify-content: center; /* Center image horizontally */
+  align-items: center; /* Center image vertically */
+  height: 100%; /* Ensure each slide takes the full height of the carousel */
+}
+
+/* Styling for images */
+.carouselImage {
+  width: 100%; /* Make images responsive */
+  height: 700px; /* Maintain aspect ratio */
+  object-fit: fill; /* Ensure images cover the carousel container without stretching */
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+/* Optional: Style for carousel dots (navigation) */
+.ant-carousel .slick-dots {
+  bottom: 10px; /* Position dots at the bottom */
+}
+
+.ant-carousel .slick-dots li button {
+  background-color: rgba(255, 255, 255, 0.6); /* Light white background for inactive dots */
+}
+
+.ant-carousel .slick-dots li.slick-active button {
+  background-color: rgba(255, 255, 255, 1); /* Highlight active dot */
+}
