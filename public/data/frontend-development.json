@@ -1,0 +1,82 @@
+{
+  "title": "Frontend Development",
+  "description": "We specialize in building dynamic, responsive, and scalable frontend applications. Our expertise in modern frontend technologies ensures high-quality, performant, and engaging user interfaces. From design to deployment, we focus on delivering seamless user experiences tailored to your business needs.",
+  "data": [
+    {
+      "title": "Technologies We Use",
+      "data": [
+        {
+          "title": "React.js",
+          "icon": "CodeOutlined",
+          "color": "#61DBFB",
+          "description": "React.js is a powerful JavaScript library for building dynamic user interfaces. It enables efficient rendering and component-based architecture for scalable applications."
+        },
+        {
+          "title": "Angular",
+          "icon": "ExperimentOutlined",
+          "color": "#DD0031",
+          "description": "Angular is a robust front-end framework developed by Google. It provides a comprehensive ecosystem for building enterprise-grade applications with TypeScript."
+        },
+        {
+          "title": "Vue.js",
+          "icon": "AppleOutlined",
+          "color": "#42B883",
+          "description": "Vue.js is a progressive framework that makes frontend development approachable and flexible, providing reactive data binding and component-driven architecture."
+        },
+        {
+          "title": "Next.js",
+          "icon": "ThunderboltOutlined",
+          "color": "#000000",
+          "description": "Next.js is a React-based framework for building server-rendered applications. It enhances performance, SEO, and scalability with static and dynamic rendering."
+        },
+        {
+          "title": "Svelte",
+          "icon": "AndroidOutlined",
+          "color": "#FF3E00",
+          "description": "Svelte is a modern frontend framework that compiles code into highly optimized JavaScript, resulting in faster applications with minimal runtime overhead."
+        }
+      ]
+    },
+    {
+      "title": "Key Features",
+      "data": [
+        {
+          "title": "Responsive Design",
+          "icon": "CheckCircleFilled",
+          "color": "#1E3A8A",
+          "description": "We ensure your applications are fully responsive, delivering an optimized experience across all devices, from desktops to mobile screens."
+        },
+        {
+          "title": "High Performance",
+          "icon": "CheckCircleFilled",
+          "color": "#1E3A8A",
+          "description": "Our frontend solutions are optimized for fast load times, smooth animations, and overall enhanced user interactions."
+        },
+        {
+          "title": "Scalability",
+          "icon": "CheckCircleFilled",
+          "color": "#1E3A8A",
+          "description": "We build applications that scale seamlessly, allowing businesses to grow without compromising performance or user experience."
+        },
+        {
+          "title": "SEO Optimization",
+          "icon": "CheckCircleFilled",
+          "color": "#1E3A8A",
+          "description": "Our frontend development includes SEO best practices, ensuring better visibility and search engine rankings for your web applications."
+        },
+        {
+          "title": "Cross-Browser Compatibility",
+          "icon": "CheckCircleFilled",
+          "color": "#1E3A8A",
+          "description": "We ensure compatibility across all modern web browsers, delivering a consistent experience to users worldwide."
+        },
+        {
+          "title": "Customizable UI Components",
+          "icon": "CheckCircleFilled",
+          "color": "#1E3A8A",
+          "description": "Our frontend solutions come with reusable and customizable UI components, allowing businesses to tailor their applications to specific needs."
+        }
+      ]
+    }
+  ]
+}

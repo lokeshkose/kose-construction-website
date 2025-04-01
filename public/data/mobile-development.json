@@ -1,0 +1,82 @@
+{
+  "title": "Mobile Development",
+  "description": "We offer a wide range of services to help businesses develop and scale their mobile applications. From technology selection to performance optimization, our expertise ensures the best solutions for your needs. Our team is dedicated to providing high-quality applications with seamless user experience, scalability, and cross-platform compatibility.",
+  "data": [
+    {
+      "title": "Technologies We Use",
+      "data": [
+        {
+          "title": "React Native",
+          "icon": "CodeOutlined",
+          "color": "#61DBFB",
+          "description": "React Native allows us to build mobile apps using JavaScript and React. It provides a rich ecosystem and enables code sharing between iOS and Android platforms."
+        },
+        {
+          "title": "Flutter",
+          "icon": "ExperimentOutlined",
+          "color": "#02569B",
+          "description": "Flutter is Google's UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase. It offers fast development and expressive UIs."
+        },
+        {
+          "title": "Swift",
+          "icon": "AppleOutlined",
+          "color": "#FA7343",
+          "description": "Swift is a powerful and intuitive programming language for iOS, macOS, watchOS, and tvOS. It provides modern features and safety, making it easier to write reliable code."
+        },
+        {
+          "title": "Kotlin",
+          "icon": "AndroidOutlined",
+          "color": "#3DDC84",
+          "description": "Kotlin is a modern programming language that makes developers happier. It is concise, safe, interoperable with Java, and provides many ways to reuse code between multiple platforms."
+        },
+        {
+          "title": "Java",
+          "icon": "ThunderboltOutlined",
+          "color": "#F89820",
+          "description": "Java is a versatile and widely-used programming language. It is the foundation for Android development and provides a robust environment for building mobile applications."
+        }
+      ]
+    },
+    {
+      "title": "Key Features",
+      "data": [
+        {
+          "title": "Seamless UI/UX",
+          "icon": "CheckCircleFilled",
+          "color": "#1E3A8A",
+          "description": "Our applications provide a seamless user experience with intuitive interfaces and smooth interactions, ensuring user satisfaction and engagement."
+        },
+        {
+          "title": "High Performance",
+          "icon": "CheckCircleFilled",
+          "color": "#1E3A8A",
+          "description": "We optimize our applications for high performance, ensuring fast load times, smooth animations, and efficient resource usage."
+        },
+        {
+          "title": "Scalability",
+          "icon": "CheckCircleFilled",
+          "color": "#1E3A8A",
+          "description": "Our solutions are designed to scale with your business, accommodating growing user bases and increasing data volumes without compromising performance."
+        },
+        {
+          "title": "Cross-Platform Compatibility",
+          "icon": "CheckCircleFilled",
+          "color": "#1E3A8A",
+          "description": "We develop cross-platform applications that run seamlessly on both iOS and Android devices, providing a consistent experience across platforms."
+        },
+        {
+          "title": "Regular Updates and Maintenance",
+          "icon": "CheckCircleFilled",
+          "color": "#1E3A8A",
+          "description": "We provide regular updates and maintenance to ensure your application remains up-to-date with the latest features, security patches, and performance improvements."
+        },
+        {
+          "title": "Customizable Solutions",
+          "icon": "CheckCircleFilled",
+          "color": "#1E3A8A",
+          "description": "Our applications are highly customizable, allowing you to tailor features and functionalities to meet your specific business needs and user requirements."
+        }
+      ]
+    }
+  ]
+}

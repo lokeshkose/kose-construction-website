@@ -1,0 +1,58 @@
+.newsletterContainer {
+  background-color: #e2e8f0;
+  padding: 3rem 1.5rem;
+  position: relative;
+  border-radius: 8px;
+  background-image: url('https://templatekits.themewarrior.com/solvero/wp-content/uploads/sites/65/2022/09/dot-pattern-1.png'),
+    url('https://templatekits.themewarrior.com/solvero/wp-content/uploads/sites/65/2022/09/shape-1.png'),
+    url('https://templatekits.themewarrior.com/solvero/wp-content/uploads/sites/65/2022/09/shape-2.png'); /* Added third image */
+  background-position: 30px 30px, top left, bottom right; /* Individual positioning */
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  /* background-size: auto, auto 34px, auto 34px; */
+}
+
+.newsletterText {
+  color: #38b2ac;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.newsletterTitle {
+  color: #1a202c;
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.newsletterSubtitle {
+  color: #2b6cb0;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.newsletterDescription {
+  color: #718096;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.newsletterForm {
+  text-align: left !important;
+}
+
+.subscribeButton {
+  background-color: #f56565;
+  border-color: #f56565;
+}
+
+@media (min-width: 768px) {
+  .newsletterForm {
+    text-align: right;
+  }
+}
+
+/* .leftCol {
+  background-image: url("https://templatekits.themewarrior.com/solvero/wp-content/uploads/sites/65/2022/09/shape-1.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+} */
+

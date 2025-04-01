@@ -1,0 +1,112 @@
+/* globals.css */
+
+/* Default light theme */
+
+/* Global styles */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: #0a0a0a;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+/* .ant-menu-submenu {
+  max-height: 42px !important;
+}
+
+.ant-menu-item {
+  color: white !important;
+}
+
+.ant-menu-submenu-title {
+  color: white !important;
+  max-height: 42px !important;
+} */
+
+.ant-drawer-top > .ant-drawer-content-wrapper {
+  top: 140px !important; /* Adjust as needed */
+  height: calc(100% - 140px) !important; /* Ensure it doesn't overflow */
+}
+
+.ant-drawer .ant-drawer-content {
+  height: auto;
+}
+
+.ant-input::placeholder {
+  color: #444141 !important; 
+  opacity: 1 !important;
+}
+
+
+.ant-btn-icon {
+  display: flex !important;
+}
+
+
+.fab-container {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+}
+
+.fab-switch {
+  background-color: #ff4d4f; /* Add your desired background color */
+  border-color: #ff4d4f;
+}
+
+.fab-switch .ant-switch-checked {
+  background-color: #ff2a2a;
+  border-color: #ff2a2a;
+}
+
+.fab-switch .ant-switch-unchecked {
+  background-color: #333;
+  border-color: #333;
+}
+
+.mb-68{
+  margin-bottom: -68px;
+}

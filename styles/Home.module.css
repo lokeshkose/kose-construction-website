@@ -1,0 +1,160 @@
+
+
+.statsSection {
+  padding: 10px 10px 16px 10px;
+  color: white;
+}
+/* 
+.statsContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+} */
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statNumber {
+  font-weight: 1000;
+}
+
+.statText {
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .statNumber {
+    font-size: 2rem;
+  }
+
+  .statText {
+    font-size: 0.9rem;
+  }
+
+  .statsSection {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .statNumber {
+    font-size: 1.5rem;
+  }
+
+  .statText {
+    font-size: 0.8rem;
+  }
+
+  .statsSection {
+    padding: 15px;
+  }
+}
+
+.explore-button:hover {
+  background-color: white;
+  color: #1a202c;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .headerMenu {
+    display: none;
+  }
+  .menuButton {
+    display: block;
+  }
+}
+
+.cardBackgroundMobile {
+  background-color: #2b6cb0;
+}
+
+.cardBackgroundBackend {
+  background-color: #2d3748;
+}
+
+.cardBackgroundFrontend {
+  background-color: #2d3748;
+}
+
+.cardBackgroundAi {
+  background-color: #e53e3e;
+}
+
+.buttonStyle {
+  background-color: white;
+  color: #1a202c;
+  border: none;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+/* Work Css */
+
+/* Wrapper styles */
+/* .works-section {
+  padding: 48px 20%;
+} */
+
+/* Header styles */
+.works-header {
+  color: white;
+  margin: 0;
+}
+
+.works-subtitle {
+  color: #a0aec0;
+}
+
+/* Button styles */
+.button-all-work {
+  background-color: #f56565;
+  border-color: #f56565;
+  border-radius: 9999px;
+}
+
+/* Image styles */
+.works-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Card Section styles */
+.works-card {
+  padding: 2rem;
+}
+
+.works-card-title {
+  color: white;
+}
+
+.works-card-subtitle {
+  color: #00bfa6;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.works-card-description {
+  color: #a0aec0;
+}
+
+.button-case-study {
+  margin-top: 1rem;
+  border-radius: 9999px;
+}
+
+/* .statsWrapper{
+  background-image: url(https://templatekits.themewarrior.com/solvero/wp-content/uploads/sites/65/2022/09/shape-3.png) !important;
+  background-position: bottom right !important;
+  background-repeat: no-repeat !important;
+} */

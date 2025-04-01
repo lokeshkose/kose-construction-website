@@ -1,0 +1,19 @@
+.aboutContainer {
+  background-color: var(--e-global-color-primary);
+  /* background-image: url(https://templatekits.themewarrior.com/solvero/wp-content/uploads/sites/65/2022/09/shape-3.png);
+  background-position: top right;
+  background-repeat: no-repeat; */
+  padding: 1rem;
+  min-height: 560px;
+}
+
+.imageWrapper {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin-right: 18px;
+}
+
+.aboutImage {
+  max-height: 500px;
+  min-height: 500px;
+}

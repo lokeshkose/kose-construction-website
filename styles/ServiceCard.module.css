@@ -1,0 +1,22 @@
+.cardContainer {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 480px;
+}
+
+.cardTitle {
+  font-size: 3vw;
+  font-weight: bold;
+  white-space: break-spaces;
+}
+
+.cardIcon {
+  font-size: 65px;
+  color: white;
+}
+
+.buttonStyle {
+  margin-top: 20px;
+}

@@ -1,0 +1,160 @@
+import React from "react";
+import { useTranslation } from "react-i18next";
+import { Layout, Row, Col, Typography, Space, Grid } from "antd";
+import {
+  FacebookOutlined,
+  TwitterOutlined,
+  InstagramOutlined,
+  YoutubeOutlined,
+} from "@ant-design/icons";
+import Subscription from "./Subscription";
+import DirectionAnimation from "@/animations/DirectionAnimation";
+
+const { Footer } = Layout;
+const { Title, Text, Link } = Typography;
+const { useBreakpoint } = Grid;
+
+const logoPath = "/logo.png";
+
+const CustomFooter = () => {
+  const { t } = useTranslation("common");
+  const screens = useBreakpoint();
+
+  return (
+    <>
+      <Row
+        gutter={[16, 16]}
+        justify="center"
+        style={{ marginBottom: 0, marginTop: "-68px" }}
+      >
+        <Col xs={24} sm={22} md={20} lg={18} xl={16}>
+          <div style={{ position: "relative", top: "70px" }}>
+            <DirectionAnimation
+              id="dfasf"
+              start={450}
+              end={0}
+              duration={1}
+              direction="rightToLeft"
+            >
+              <Subscription />
+            </DirectionAnimation>
+          </div>
+        </Col>
+      </Row>
+      <Footer
+        style={{
+          backgroundColor: "#1D2B64",
+          color: "white",
+          padding: screens.xs ? "50px 16px" : "80px",
+          textAlign: "center",
+        }}
+      >
+        <DirectionAnimation
+          id="dfasf"
+          start={-450}
+          end={0}
+          duration={1}
+          direction="leftToRight"
+        >
+          <div style={{ marginTop: "24px" }}>
+            <Row gutter={[16, 16]} justify="center">
+              <Col xs={24} sm={16} md={8} style={{ textAlign: "center" }}>
+                <img style={{ width: "300px" }} src={logoPath} alt="Logo" />
+                <br />
+                <Text style={{ color: "white" }}>
+                  {t("footer.description")}
+                </Text>
+              </Col>
+              <Col xs={24} sm={16} md={8} style={{ textAlign: "center" }}>
+                <Title level={4} style={{ color: "white" }}>
+                  {t("footer.contactUs")}
+                </Title>
+                <Text style={{ color: "white" }}>
+                  <Link
+                    style={{ color: "white" }}
+                    href="https://maps.google.com/?q=Pragati Vihar, Badia Keema, Madhya Pradesh 452016"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {t("footer.address")}
+                  </Link>
+                </Text>
+                {/* <Text style={{ color: 'white' }}>{t('footer.address')}</Text> */}
+                <br />
+                <Text style={{ color: "white" }}>
+                  {" "}
+                  <Link
+                    style={{ color: "white" }}
+                    href="mailto:earlytech.info@gmail.com"
+                  >
+                    {t("footer.email")}
+                  </Link>
+                </Text>
+                <br />
+                <Space style={{ marginTop: "16px" }}>
+                  <Link
+                    target="_blank"
+                    href="https://www.facebook.com/profile.php?id=61573572743388"
+                  >
+                    <FacebookOutlined
+                      style={{ fontSize: "24px", color: "white" }}
+                    />
+                  </Link>
+                  <Link target="_blank" href="https://x.com/EarlytechInfo">
+                    <TwitterOutlined
+                      style={{ fontSize: "24px", color: "white" }}
+                    />
+                  </Link>
+                  <Link
+                    target="_blank"
+                    href="https://www.instagram.com/earlytech.info/"
+                  >
+                    <InstagramOutlined
+                      style={{ fontSize: "24px", color: "white" }}
+                    />
+                  </Link>
+                  <Link
+                    target="_blank"
+                    href="https://www.youtube.com/@EarlyTech-info"
+                  >
+                    <YoutubeOutlined
+                      style={{ fontSize: "24px", color: "white" }}
+                    />
+                  </Link>
+                </Space>
+              </Col>
+            </Row>
+            <Row
+              justify="center"
+              align="middle"
+              style={{
+                marginTop: "40px",
+                paddingTop: "16px",
+              }}
+            >
+              <Col xs={24} style={{ textAlign: "center" }}>
+                <Text style={{ color: "white" }}>{t("footer.copyright")}</Text>
+              </Col>
+              <Col xs={24} style={{ textAlign: "center", marginTop: "10px" }}>
+                <Space>
+                  <Link href="/en/support" style={{ color: "white" }}>
+                    {t("footer.support")}
+                  </Link>
+                  <Link href="/en/privacy" style={{ color: "white" }}>
+                    {t("footer.privacyStatement")}
+                  </Link>
+                  <Link href="/en/terms" style={{ color: "white" }}>
+                    {t("footer.termsOfUse")}
+                  </Link>
+                  {/* <Link href="#" style={{ color: 'white' }}>{t('footer.cookies')}</Link> */}
+                </Space>
+              </Col>
+            </Row>
+          </div>
+        </DirectionAnimation>
+      </Footer>
+    </>
+  );
+};
+
+export default CustomFooter;

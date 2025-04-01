@@ -1,0 +1,271 @@
+{
+  "home": "Home",
+  "Login": "Login",
+  "about": "About",
+  "service": "Services",
+  "ourWorks": "Our Works",
+  "contactUs": "Contact Us",
+  "requestQuote": "Start Project",
+  "buttonText": "Get Started",
+  "supports": "Support",
+  "getSupport": "Get Support",
+  "mapPopup": "Our Support Center in Indore, Madhya Pradesh, India",
+  "homeBanner": {
+    "title": "Innovate Seamlessly, Grow Limitlessly",
+    "description": "Early Tech empowers businesses with seamless technology and limitless innovation, transforming ideas into scalable digital solutions 🚀",
+    "buttonText": "Get Started"
+  },
+  "stats": {
+    "successRate": "99% Success in getting customer",
+    "businesses": "35+ of successful businesses",
+    "clients": "30+ Total clients who love early tech",
+    "reviews": "4.6 Highly satisfied reviews"
+  },
+  "abouts": {
+    "title": "Innovating the Future, One Solution at a Time",
+    "subtitle": "About Us",
+    "description": "Early Tech is a visionary IT solutions company dedicated to transforming ideas into reality. We specialize in software development, UI/UX design, digital transformation, and business automation, helping businesses scale and innovate. Our team thrives on creativity, collaboration, and cutting-edge technology to deliver seamless and impactful solutions. At Early Tech, your vision is our mission!",
+    "button": "Learn More"
+  },
+  "abouts1": {
+    "title": "Pioneering Digital Excellence with Early Tech",
+    "subtitle": "Who We Are",
+    "description": "At Early Tech, we are more than just a tech company—we are innovators, problem solvers, and digital transformation partners. Our expertise spans software development, AI-driven solutions, and cloud-based automation, empowering businesses to stay ahead in a rapidly evolving world. We believe in creating technology that simplifies, accelerates, and enhances business operations with a futuristic approach.",
+    "button": "Discover More"
+  },
+  "abouts2": {
+    "title": "Driving Innovation, Delivering Success",
+    "subtitle": "Our Mission",
+    "description": "Early Tech is on a mission to redefine how technology fuels business growth. By blending strategy, design, and execution, we create intelligent solutions that drive efficiency, scalability, and success. Whether it's building cutting-edge applications or automating workflows, our goal is to turn every challenge into an opportunity for innovation.",
+    "button": "Explore Our Vision"
+  },
+
+  "services": {
+    "sectionTitle": "SERVICES",
+    "sectionSubtitle": "Our Services",
+    "sectionDescription": "We provide high-quality development services to help your business grow faster.",
+    "buttonText": "Our All Services",
+    "list": [
+      {
+        "title": "Mobile Development",
+        "slug": "mobile-development",
+        "description": "We craft high-performance, user-friendly mobile applications tailored for iOS and Android. Our solutions focus on seamless UI/UX, scalability, and cutting-edge technology to deliver engaging and efficient mobile experiences."
+      },
+      {
+        "title": "Back-end Development",
+        "slug": "backend-development",
+        "description": "We build secure, scalable, and high-performance backend systems that power seamless digital experiences. Our expertise in APIs, databases, and cloud solutions ensures reliable and efficient data management."
+      },
+      {
+        "title": "Front-end Development",
+        "slug": "frontend-development",
+        "description": "We create responsive, interactive, and visually stunning user interfaces that enhance digital experiences. Using the latest technologies, we ensure seamless performance, accessibility, and a user-friendly design across all devices."
+      },
+      {
+        "title": "AI Development",
+        "slug": "ai-development",
+        "description": "We harness the power of Artificial Intelligence to build smart, data-driven solutions that enhance automation, decision-making, and efficiency. From machine learning models to AI-powered chatbots, we create intelligent systems that drive innovation."
+      }
+    ]
+  },
+  "works": {
+    "title": "WORKS",
+    "subTitle": "Our Works",
+    "description": "At Early Tech, we craft innovative digital solutions that solve real-world challenges. From education and charity platforms to business and management systems, our work drives impact across industries. Explore our diverse projects designed for efficiency, growth, and seamless user experience.",
+    "buttonText": "Our All Works",
+    "workItems": [
+      {
+        "title": "Devkirti Charitable Foundation",
+        "subTitle": "Empowering Social Change",
+        "description": "A digital platform designed to support social initiatives and charitable programs. Streamlines donation processes for easy and secure contributions. Enhances community engagement with interactive features and updates. Provides transparency with real-time impact tracking and reports. Aiming to create a larger social impact through technology."
+      },
+      {
+        "title": "Hydro Care Innovation",
+        "subTitle": "Revolutionizing Industrial Solutions",
+        "description": "A professional website showcasing industrial chemical solutions. Highlights RO chemicals, boiler chemicals, and water treatment innovations. Designed for B2B clients, ensuring easy product discovery and inquiries. Provides essential resources, safety guidelines, and application insights. Enhancing industry standards with modern technology integration."
+      },
+      {
+        "title": "School Management System (CRM Module)",
+        "subTitle": "Simplifying Education Management",
+        "description": "A powerful school management platform automating administration, attendance, and academic tracking. Role-based dashboards for students, teachers, and admins ensure seamless communication and efficiency, enhancing the overall learning experience. Integrated real-time notifications and reports keep everyone informed and connected."
+      },
+      {
+        "title": "Visitor Management System",
+        "subTitle": "Secure and Efficient Check-ins",
+        "description": "A modern system for managing visitors efficiently and securely. Enables quick check-ins with digital registration and verification processes. Stores visitor logs with real-time tracking for enhanced security. Integrates with access control and notification systems. Designed to improve visitor experience while maintaining organizational safety."
+      },
+      {
+        "title": "B2B Business Solutions",
+        "subTitle": "Connecting Vendors and Retailers",
+        "description": "A digital platform bridging wholesalers, vendors, and retailers. Simplifies order management, inventory tracking, and payments. Offers an intuitive dashboard for seamless transactions and stock updates. Enhances efficiency with automated invoicing and order fulfillment. Supports business growth by streamlining the entire supply chain."
+      }
+    ]
+  },
+  "joinUs": {
+    "title": "Join Us",
+    "subTitle": "Be a Part of Innovation",
+    "description": "At Early Tech, we believe in turning ideas into reality through technology and innovation. Join our team of passionate professionals and shape the future with cutting-edge solutions. Whether you're a developer, designer, or strategist, there’s a place for you here. Work on impactful projects, grow your skills, and make a difference. Let’s build something extraordinary together!",
+    "buttonText": "Join Us Now"
+  },
+  "subscription": {
+    "newsletter": "NEWSLETTER",
+    "title": "Subscribe To Our Newsletter",
+    "subTitle": "Stay Updated with the Latest Innovations",
+    "description": "Join our community and never miss an update! Get the latest insights, industry trends, and exclusive updates on our projects straight to your inbox. Stay ahead in the world of technology with Early Tech.",
+    "placeholder": "Email address",
+    "button": "Subscribe",
+    "emailRequired": "Please enter your email address",
+    "emailInvalid": "Please enter a valid email address",
+    "successMessage": "Thank you for subscribing! We're glad to have you with us.",
+    "errorMessage": "Subscription failed. Please try again later."
+  },
+  "footer": {
+    "description": "Providing quality services to our customers with trust and reliability.",
+    "contactUs": "Contact Us",
+    "address": "Pragati Vihar, Badia Keema, Madhya Pradesh 452016",
+    "copyright": "© 2025 Eary Tech. All rights reserved.",
+    "support": "Support",
+    "privacyStatement": "Privacy Statement",
+    "termsOfUse": "Terms of Use",
+    "cookies": "Cookies",
+    "email": "earlytech.info@gmail.com"
+  },
+  "quote": {
+    "successMessage": "Thank you for requesting a quote! We’ll get back to you soon.",
+    "errorMessage": "Failed to submit quote request. Please try again.",
+    "title": "Start Project",
+    "mainSubtitle": "Let’s Build Something Extraordinary Together!",
+    "secondTitle": "Get a Quote",
+    "subtitle": "Start your project with us.",
+    "description": "Turn your ideas into reality with our expert solutions. From strategy to execution, we bring innovation and efficiency to every project. Let's build something great together!",
+    "nameRequired": "Please enter your name",
+    "mobileRequired": "Please enter your mobile number",
+    "mobileInvalid": "Please enter a valid mobile number",
+    "emailRequired": "Please enter your email",
+    "emailInvalid": "Please enter a valid email address",
+    "serviceRequired": "Please select a service",
+    "projectInfoRequired": "Please provide details about your project",
+
+    "form": {
+      "name": "Your Name",
+      "phone": "Phone",
+      "email": "Email address",
+      "company": "Company",
+      "service": "Select Service",
+      "services": {
+        "ux-ui": "UX/UI Design",
+        "web-dev": "Web Development",
+        "seo": "SEO Services",
+        "content": "Content Creation"
+      },
+      "projectInfo": "Project info (Optional)",
+      "button": "Submit"
+    }
+  },
+  "contacts": {
+    "contact": "Contact",
+    "contactTitle": "Get in Touch",
+    "contactDescription": "Have questions or need assistance? We're here to help! Reach out to us anytime, and let's create something amazing together.",
+    "contactUs": "Contact Us",
+    "address": "Pragati Vihar, Badia Keema, Madhya Pradesh 452016",
+    "email": "earlytech.info@gmail.com",
+    "phone": "9098518231",
+    "messageTitle": "Send Us a Message",
+    "messageDescription": "Fill out the form below and we’ll get back to you as soon as possible.",
+    "nameRequired": "Please enter your name",
+    "namePlaceholder": "Enter your name",
+    "mobileRequired": "Please enter your mobile number",
+    "mobileInvalid": "Please enter a valid mobile number",
+    "mobilePlaceholder": "Enter your mobile number",
+    "emailRequired": "Please enter your email",
+    "emailInvalid": "Please enter a valid email address",
+    "emailPlaceholder": "Enter your email",
+    "messageRequired": "Please enter your message",
+    "messagePlaceholder": "Enter your message",
+    "sendMessage": "Send Message",
+    "successMessage": "Thanks for reaching out! We'll get back to you soon.",
+    "errorMessage": "Something went wrong, please try again!"
+  },
+
+  "login": {
+    "title": "Welcome back, Innovator! Let’s build something amazing today. 🚀",
+    "subtitle": "Every login is a step toward creating something extraordinary. Whether you're designing, coding, or strategizing, your skills drive innovation and bring ideas to life. Let's collaborate, push boundaries, and build a future powered by technology—one line of code at a time!",
+    "success_message": "You have successfully loggedin.",
+    "form": {
+      "welcome": "WELCOME ...",
+      "login_prompt": "LOG IN TO CONTINUE",
+      "mobile_placeholder": "Mobile",
+      "password_placeholder": "Password",
+      "mobile_error": "Please input your Mobile!",
+      "mobile_invalid": "Invalid mobile number",
+      "password_error": "Please input your Password!",
+      "button": "Proceed to my Account"
+    }
+  },
+
+  "support": {
+    "title": "📩 Need Help? Contact Our Support Team",
+    "email": "Email: support@earlytech.com",
+    "phone": "Phone: +91 XXXXXXXXXX",
+    "address": "Address: Pragati Vihar, Badia Keema, MP 452016",
+    "operatingHours": "Operating Hours: Monday - Friday: 9 AM - 6 PM",
+    "faqs": {
+      "title": "Frequently Asked Questions (FAQs)",
+      "howToGetSupport": "How can I get technical support?",
+      "responseTime": "What is the response time for queries?",
+      "liveSupport": "Can I schedule a live support session?",
+      "answers": {
+        "howToGetSupport": "You can email us at support@earlytech.com or call our helpline during business hours.",
+        "responseTime": "We usually respond within 24-48 hours for standard queries. Critical issues are prioritized.",
+        "liveSupport": "Yes, you can book a live support session via email. Our team will coordinate a suitable time."
+      }
+    },
+    "submitTicket": "📬 Submit a Support Ticket"
+  },
+
+  "learnMore": "Learn More",
+  "privacyStatement": {
+    "title": "Privacy Statement",
+    "subtitle": "Your Privacy Matters",
+    "introduction": "We are committed to protecting your privacy. This statement outlines how we collect, use, and safeguard your personal information.",
+    "dataCollection": {
+      "title": "Data Collection",
+      "description": "We collect information such as your name, email address, and usage data to provide and improve our services."
+    },
+    "dataUsage": {
+      "title": "Data Usage",
+      "description": "Your data is used to personalize your experience, improve our services, and communicate with you."
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "question1": "How is my data stored?",
+      "answer1": "Your data is stored securely using industry-standard encryption and security measures.",
+      "question2": "Can I delete my data?",
+      "answer2": "Yes, you can request the deletion of your data at any time by contacting us.",
+      "question3": "Is my data shared with third parties?",
+      "answer3": "We do not share your data with third parties without your explicit consent."
+    }
+  },
+  "termsOfUse": {
+    "title": "Terms of Use",
+    "subtitle": "Acceptable Use Policy",
+    "introduction": "By using our services, you agree to comply with these terms. Please read them carefully to understand your rights and responsibilities.",
+    "userResponsibilities": {
+      "title": "User Responsibilities",
+      "description": "You are responsible for maintaining the confidentiality of your account and for all activities that occur under your account."
+    },
+    "prohibitedActivities": {
+      "title": "Prohibited Activities",
+      "description": "You may not use our services for any illegal or unauthorized purpose, including but not limited to hacking, spamming, or distributing malware."
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "question1": "What happens if I violate the terms?",
+      "answer1": "Violations may result in the suspension or termination of your account.",
+      "question2": "Can I transfer my account to someone else?",
+      "answer2": "No, accounts are non-transferable and must be used only by the registered user.",
+      "question3": "How can I report abuse?",
+      "answer3": "You can report abuse by contacting our support team at support@example.com."
+    }
+  }
+}

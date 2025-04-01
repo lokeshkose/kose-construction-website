@@ -1,0 +1,49 @@
+/* Service.module.css */
+
+.serviceTitle {
+  color: #38b2ac;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.cardContainer {
+  border-radius: 8px;
+  padding: 80px 50px;
+  min-height: 480px;
+}
+
+.cardTitle {
+  font-size: 3vw;
+  font-weight: bold;
+  white-space: break-spaces;
+}
+
+.cardIcon {
+  font-size: 65px;
+  color: white;
+}
+
+.buttonStyle {
+  margin-top: 20px;
+}
+
+.cardBackgroundMobile {
+  background-color: #3182ce;
+  color: white;
+}
+
+.cardBackgroundBackend {
+  background-color: #2d3748;
+  color: white;
+}
+
+.cardBackgroundFrontend {
+  background-color: #805ad5;
+  color: white;
+}
+
+.cardBackgroundAi {
+  background-color: #e53e3e;
+  color: white;
+}
