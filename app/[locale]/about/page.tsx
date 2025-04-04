@@ -29,11 +29,11 @@ const About = () => {
     buttonText: t("abouts2.button"),
     imageUrl:'/our_mission.png'  };
   return (
-    <div className="mb-68">
+    <div>
       <BannerTop
         title={t("about")}
         buttonText="Get Started"
-        backgroundVideo="/about_banner.mp4"
+        backgroundImage="/about_banner.png"
         // backgroundImage="/test.png"
         onButtonClick={() => console.log("Button clicked")}
         breadcrumbs={[{ title: t("home") }, { title: t("about") }]}

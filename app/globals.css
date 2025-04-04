@@ -65,14 +65,6 @@ a {
   max-height: 42px !important;
 } */
 
-.ant-drawer-top > .ant-drawer-content-wrapper {
-  top: 140px !important; /* Adjust as needed */
-  height: calc(100% - 140px) !important; /* Ensure it doesn't overflow */
-}
-
-.ant-drawer .ant-drawer-content {
-  height: auto;
-}
 
 .ant-input::placeholder {
   color: #444141 !important; 

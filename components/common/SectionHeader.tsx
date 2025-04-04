@@ -9,7 +9,7 @@ interface SectionHeaderProps {
   title: string;
   subTitle: string;
   description: string;
-  buttonText: string;
+  buttonText?: string;
   id: string;
 }
 
@@ -74,15 +74,17 @@ const SectionHeader: FC<SectionHeaderProps> = ({
         style={{
           textAlign: screens.md ? 'right' : 'center', // Align center on small screens
         }}>
-        <Button
-          type='default'
-          shape='round'
-          size='large'
-          style={{
-            width: screens.md ? 'auto' : '100%', // Full width on small screens
-          }}>
-          {buttonText}
-        </Button>
+        {buttonText && (
+          <Button
+            type='default'
+            shape='round'
+            size='large'
+            style={{
+              width: screens.md ? 'auto' : '100%', // Full width on small screens
+            }}>
+            {buttonText}
+          </Button>
+        )}
       </Col>
     </Row>
   );

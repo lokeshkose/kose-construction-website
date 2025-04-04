@@ -47,20 +47,20 @@ const ServiceCard: FC<ServiceCardProps> = ({
                 {title}
               </span>
             }
-            extra={icon}
+            // extra={icon}
             headStyle={{ borderBottom: 'none' }}>
             <Meta
               style={{ fontSize: screens.md ? '16px' : '16px' }}
               description={description}
             />
-            <Button
+            {/* <Button
               style={{ marginTop: '16px' }}
               type='default'
               shape='round'
               size='large'
               onClick={onNavigateDetail}>
               Discover More
-            </Button>
+            </Button> */}
           </Card>
         </DirectionAnimation>
       </Col>

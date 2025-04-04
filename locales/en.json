@@ -1,10 +1,10 @@
 {
-  "home": "Home",
+  "home": "HOME",
   "Login": "Login",
-  "about": "About",
-  "service": "Services",
-  "ourWorks": "Our Works",
-  "contactUs": "Contact Us",
+  "about": "ABOUT",
+  "service": "SERVICES",
+  "ourWorks": "OUR WORKS",
+  "contactUs": "CONTACT US",
   "requestQuote": "Start Project",
   "buttonText": "Get Started",
   "supports": "Support",
@@ -16,27 +16,27 @@
     "buttonText": "Get Started"
   },
   "stats": {
-    "successRate": "99% Success in getting customer",
-    "businesses": "35+ of successful businesses",
-    "clients": "30+ Total clients who love early tech",
-    "reviews": "4.6 Highly satisfied reviews"
+    "successRate": "Satisfied Customers",
+    "businesses": "Successful Businesses",
+    "clients": "Total Trust on Us",
+    "reviews": "Reviews"
   },
   "abouts": {
-    "title": "Innovating the Future, One Solution at a Time",
+    "title": "Expert JCB Excavator Construction Services with 13 Years of Experience",
     "subtitle": "About Us",
-    "description": "Early Tech is a visionary IT solutions company dedicated to transforming ideas into reality. We specialize in software development, UI/UX design, digital transformation, and business automation, helping businesses scale and innovate. Our team thrives on creativity, collaboration, and cutting-edge technology to deliver seamless and impactful solutions. At Early Tech, your vision is our mission!",
+    "description": "Welcome to our family, your trusted partner in JCB excavator services and earthmoving solutions. With over 13 years of experience, we take pride in delivering exceptional excavation, site preparation, and material handling services tailored to meet the demands of modern construction and infrastructure projects.Our commitment to quality, efficiency, and reliability has helped us build a solid reputation in the industry. We utilize state-of-the-art equipment operated by skilled professionals to ensure that every project is executed with precision, safety, and timeliness.",
     "button": "Learn More"
   },
   "abouts1": {
-    "title": "Pioneering Digital Excellence with Early Tech",
+    "title": "Your Trusted Partner for JCB and Construction Services",
     "subtitle": "Who We Are",
-    "description": "At Early Tech, we are more than just a tech company—we are innovators, problem solvers, and digital transformation partners. Our expertise spans software development, AI-driven solutions, and cloud-based automation, empowering businesses to stay ahead in a rapidly evolving world. We believe in creating technology that simplifies, accelerates, and enhances business operations with a futuristic approach.",
+    "description": "We are a professional JCB and construction equipment service provider, specializing in excavation, land leveling, road grading, and material loading. Whether you're a farmer, builder, or contractor, we provide reliable and efficient solutions to meet your project needs.With a well-maintained fleet of JCBs and tippers available for rent, we ensure top-quality service, timely execution, and expert support for every job. Our commitment to excellence and customer satisfaction makes us a trusted partner in agricultural and construction projects.",
     "button": "Discover More"
   },
   "abouts2": {
-    "title": "Driving Innovation, Delivering Success",
+    "title": " Building Excellence with Reliability and Efficiency",
     "subtitle": "Our Mission",
-    "description": "Early Tech is on a mission to redefine how technology fuels business growth. By blending strategy, design, and execution, we create intelligent solutions that drive efficiency, scalability, and success. Whether it's building cutting-edge applications or automating workflows, our goal is to turn every challenge into an opportunity for innovation.",
+    "description": "Our mission is to provide high-quality JCB and construction services with reliability and efficiency. We aim to connect with more customers, build strong relationships, and expand our business while ensuring customer satisfaction. Through our dedication and hard work, we strive to contribute to the growth of the construction.",
     "button": "Explore Our Vision"
   },
 
@@ -47,57 +47,47 @@
     "buttonText": "Our All Services",
     "list": [
       {
-        "title": "Mobile Development",
+        "title": "JCB Service",
         "slug": "mobile-development",
-        "description": "We craft high-performance, user-friendly mobile applications tailored for iOS and Android. Our solutions focus on seamless UI/UX, scalability, and cutting-edge technology to deliver engaging and efficient mobile experiences."
+        "description": "We provide professional JCB services for various construction and agricultural needs. Our expertise includes land leveling for farming, material shifting, and efficient loading of construction materials into vehicles. We also specialize in trench excavation for pipeline installation, ensuring precision and reliability in every project.."
       },
       {
-        "title": "Back-end Development",
+        "title": "Poclain Machine Services",
         "slug": "backend-development",
-        "description": "We build secure, scalable, and high-performance backend systems that power seamless digital experiences. Our expertise in APIs, databases, and cloud solutions ensures reliable and efficient data management."
+        "description": "We provide reliable dumper services for transporting and shifting all types of construction materials, including reta, crushed stone, and murum. Our efficient transportation solutions ensure timely and safe delivery to your site, meeting the needs of construction and infrastructure projects."
       },
       {
-        "title": "Front-end Development",
+        "title": "Dumper Transport & Shifting Services",
         "slug": "frontend-development",
         "description": "We create responsive, interactive, and visually stunning user interfaces that enhance digital experiences. Using the latest technologies, we ensure seamless performance, accessibility, and a user-friendly design across all devices."
       },
       {
-        "title": "AI Development",
+        "title": "Pond & Stop Dam Construction",
         "slug": "ai-development",
-        "description": "We harness the power of Artificial Intelligence to build smart, data-driven solutions that enhance automation, decision-making, and efficiency. From machine learning models to AI-powered chatbots, we create intelligent systems that drive innovation."
+        "description": "We specialize in constructing earthen ponds and stop dams, delivering high-quality work with precision and durability. Till now, we have successfully completed 4 stop dams and 5 earthen ponds, ensuring strong and long-lasting structures. Our expertise in water conservation projects has been recognized, and we have proudly executed these projects for Action for Social Advancement (ASA). We are committed to providing reliable solutions for sustainable water management."
       }
     ]
   },
   "works": {
     "title": "WORKS",
     "subTitle": "Our Works",
-    "description": "At Early Tech, we craft innovative digital solutions that solve real-world challenges. From education and charity platforms to business and management systems, our work drives impact across industries. Explore our diverse projects designed for efficiency, growth, and seamless user experience.",
+    "description": "At Kose Construction, we specialize in excavation, land leveling, and construction projects that ensure durability and efficiency. From digging wells and building stop dams to handling loading and pipeline excavation, our skilled team and advanced machinery deliver reliable results. We are committed to quality, precision, and customer satisfaction in every project, supporting infrastructure and water conservation efforts.",
     "buttonText": "Our All Works",
     "workItems": [
       {
-        "title": "Devkirti Charitable Foundation",
-        "subTitle": "Empowering Social Change",
-        "description": "A digital platform designed to support social initiatives and charitable programs. Streamlines donation processes for easy and secure contributions. Enhances community engagement with interactive features and updates. Provides transparency with real-time impact tracking and reports. Aiming to create a larger social impact through technology."
+        "title": "Wells Digging",
+        "subTitle": "We Have Dug 500+ Wells with 99% Customer Satisfaction",
+        "description": "We have successfully excavated over 500 wells, with 99% customer satisfaction. Our expertise ensures precise and efficient digging, maintaining a depth capacity of 30 to 35 feet. With a skilled team and well-maintained equipment, we guarantee durability and quality in every project. Our focus is on delivering reliable water solutions, supporting irrigation and water conservation efforts. We prioritize customer needs, ensuring timely completion and long-lasting results."
       },
       {
-        "title": "Hydro Care Innovation",
-        "subTitle": "Revolutionizing Industrial Solutions",
-        "description": "A professional website showcasing industrial chemical solutions. Highlights RO chemicals, boiler chemicals, and water treatment innovations. Designed for B2B clients, ensuring easy product discovery and inquiries. Provides essential resources, safety guidelines, and application insights. Enhancing industry standards with modern technology integration."
+        "title": "Land Levelling",
+        "subTitle": "Land Leveling, Excavation & Loading – Trusted by 4,000+ Customers",
+        "description": "We provide land leveling services using JCB for agricultural fields. We also handle loading work and excavation for pipeline installations. Additionally, we facilitate the shifting of muram and stones. With our efficient services and well-maintained equipment, we ensure high-quality results. Over 4,000 satisfied customers trust us for their construction and excavation needs. Our skilled team is committed to timely and reliable service, maintaining customer satisfaction at every step."
       },
       {
-        "title": "School Management System (CRM Module)",
-        "subTitle": "Simplifying Education Management",
-        "description": "A powerful school management platform automating administration, attendance, and academic tracking. Role-based dashboards for students, teachers, and admins ensure seamless communication and efficiency, enhancing the overall learning experience. Integrated real-time notifications and reports keep everyone informed and connected."
-      },
-      {
-        "title": "Visitor Management System",
-        "subTitle": "Secure and Efficient Check-ins",
-        "description": "A modern system for managing visitors efficiently and securely. Enables quick check-ins with digital registration and verification processes. Stores visitor logs with real-time tracking for enhanced security. Integrates with access control and notification systems. Designed to improve visitor experience while maintaining organizational safety."
-      },
-      {
-        "title": "B2B Business Solutions",
-        "subTitle": "Connecting Vendors and Retailers",
-        "description": "A digital platform bridging wholesalers, vendors, and retailers. Simplifies order management, inventory tracking, and payments. Offers an intuitive dashboard for seamless transactions and stock updates. Enhances efficiency with automated invoicing and order fulfillment. Supports business growth by streamlining the entire supply chain."
+        "title": "Construction",
+        "subTitle": "Built 4 Stop Dams & 5 Mud Ponds for Water Conservation",
+        "description": "We have successfully constructed 4 stop dams and 5 mud ponds, ensuring durability and efficiency. Our well-maintained and skilled staff handles every project with expertise. We use high-quality materials in all our construction work, guaranteeing strength and longevity. Our focus is on delivering reliable water conservation solutions with precision and care."
       }
     ]
   },

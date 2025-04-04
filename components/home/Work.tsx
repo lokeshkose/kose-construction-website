@@ -18,8 +18,8 @@ const getWorkItems = (t: TFunction) => [
       "works.workItems.0.description",
       "We leverage cutting-edge technology to create impactful solutions tailored to your needs."
     ),
-    backgroundColor: "#6b1d1c",
-    image: "/devkirti.png",
+    backgroundColor: "rgb(40 89 152)",
+    image: "/work1.jpeg",
     // image: 'https://images.pexels.com/photos/3184460/pexels-photo-3184460.jpeg',
     reverse: false,
     url: "https://devkirtifoundation.in/#/",
@@ -35,7 +35,7 @@ const getWorkItems = (t: TFunction) => [
       "We leverage cutting-edge technology to create impactful solutions tailored to your needs."
     ),
     backgroundColor: "#306357",
-    image: "/hydrocare.png",
+    image: "/work2.jpeg",
     reverse: true,
     url: "https://hydrocareinnovation.com/",
   },
@@ -47,7 +47,7 @@ const getWorkItems = (t: TFunction) => [
       "Our mobile app revolutionized online shopping, providing a seamless experience for users worldwide."
     ),
     backgroundColor: "#d64902",
-    image: "/school.png",
+    image: "/work3.jpeg",
     reverse: false,
     url: "https://hydrocareinnovation.com/",
   },
@@ -81,7 +81,7 @@ const WorksSection: FC = () => {
           "works.description",
           "We provide high-quality development services to help your business grow faster."
         )}
-        buttonText={t("works.buttonText", "View All Works")}
+        // buttonText={t("works.buttonText", "View All Works")}
         id="2"
       />
       <Row gutter={[32, 32]}>

@@ -36,8 +36,8 @@ const ContactPage = () => {
       <BannerTop
         title={t("contactUs")}
         buttonText="Get Started"
-        backgroundVideo="/contact_banner.mp4"
-        // backgroundImage='/service_banner.png'
+        // backgroundVideo="/contact_banner.mp4"
+        backgroundImage='/contact_banner.png'
         onButtonClick={() => console.log("Button clicked")}
         breadcrumbs={[{ title: t("home") }, { title: t("contactUs") }]}
         bannerHeight={600}

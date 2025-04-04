@@ -9,11 +9,12 @@ const Service = () => {
   const { token } = theme.useToken();
   const { t } = useTranslation('common');
   return (
-    <div className="mb-68">
+    <div>
       <BannerTop
         title={t('service')}
         buttonText='Get Started'
-        backgroundVideo='/service_banner.mp4'
+        // backgroundVideo='/service_banner.mp4'
+        backgroundImage='/service_banner.png'
         onButtonClick={() => console.log('Button clicked')}
         breadcrumbs={[{ title: t('home') }, { title: t('service') }]}
         bannerHeight={600}

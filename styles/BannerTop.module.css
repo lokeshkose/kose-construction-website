@@ -16,7 +16,7 @@
   height: 100%;
   /* background: url('https://storage.googleapis.com/a1aa/image/pOuMS3EDbR0tpzgX8wCYrxtCakO4X65QJuOo4t2UkCc.jpg')
     no-repeat center center/cover; */
-  opacity: .1;
+  opacity: .0;
   z-index: 1;
   display: flex;
   flex-direction: column;

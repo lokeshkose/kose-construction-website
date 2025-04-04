@@ -97,7 +97,7 @@ export async function sendMail({
 
     // Send email
     const info = await transporter.sendMail({
-      from: `"Early Tech" <${process.env.EMAIL_USER}>`,
+      from: `"Kose Construction" <${process.env.EMAIL_USER}>`,
       to: Array.isArray(to) ? to.join(", ") : to,
       subject,
       html: emailTemplate,

@@ -17,10 +17,30 @@ export default function Home() {
   const { token } = theme.useToken();
   const router = useRouter();
   const statsData = [
-    { value: 99, description: t('stats.successRate'), suffix: '%' },
-    { value: 35, description: t('stats.businesses'), suffix: '+' },
-    { value: 30, description: t('stats.clients'), suffix: '+' },
-    { value: 4.6, description: t('stats.reviews'), suffix: '' },
+    {
+      value: 95,
+      description: t('stats.successRate'),
+      suffix: '%',
+      decimalPlaces: 0,
+    },
+    {
+      value: 5000,
+      description: t('stats.businesses'),
+      suffix: '+',
+      decimalPlaces: 0,
+    },
+    {
+      value: 4800,
+      description: t('stats.clients'),
+      suffix: '+',
+      decimalPlaces: 0,
+    },
+    {
+      value: 4.7,
+      description: t('stats.reviews'),
+      suffix: '',
+      decimalPlaces: 1,
+    },
   ];
 
   const aboutData = {
@@ -49,7 +69,29 @@ export default function Home() {
     console.log('button clicked');
   };
 
-  const sampleImages = ['/banner1.jpg', '/banner2.jpg', '/banner3.jpg', '/banner5.jpg', '/banner6.jpg'];
+  const bannerImages = [
+    '/banner2.png',
+    '/banner1.png',
+    '/banner3.jpg',
+    '/banner7.png',
+    '/banner8.jpg',
+  ];
+  const gallaryImages = [
+    '/gallary2.jpg',
+    '/gallary3.jpg',
+    '/gallary4.jpg',
+    '/gallary5.jpg',
+    '/gallary6.jpg',
+
+    '/gallary10.jpg',
+    '/gallary11.jpg',
+    '/gallary12.jpg',
+    '/gallary13.jpg',
+    '/gallary14.jpg',
+    '/gallary15.jpg',
+    '/gallary16.jpg',
+  ];
+
   return (
     <>
       {/* Banner Section */}
@@ -59,7 +101,7 @@ export default function Home() {
         onButtonClick={handleSubmit}
       /> */}
 
-      <CustomCarousel images={sampleImages} />
+      <CustomCarousel images={bannerImages} />
 
       {/* Stats Section */}
       <Row
@@ -110,27 +152,11 @@ export default function Home() {
           <Service />
         </Col>
       </Row>
-
-      {/* Works Section */}
+      {/* Gallary Section */}
       <Row
         gutter={[16, 16]}
         justify='center'
-        style={{ marginBottom: 120 }}>
-        <Col
-          xs={22}
-          sm={22}
-          md={20}
-          lg={18}
-          xl={16}>
-          <WorksSection />
-        </Col>
-      </Row>
-
-      {/* Join Us Section */}
-      <Row
-        gutter={[16, 16]}
-        justify='center'
-        style={{ marginBottom: '0px' }}>
+        style={{ marginBottom: 40, marginTop: 40}}>
         <Col
           xs={22}
           sm={22}
@@ -138,7 +164,22 @@ export default function Home() {
           lg={22}
           xl={20}>
           {/* <JoinUs /> */}
-          <CustomGallery images={sampleImages} />
+          <CustomGallery images={gallaryImages} />
+        </Col>
+      </Row>
+
+      {/* Works Section */}
+      <Row
+        gutter={[16, 16]}
+        justify='center'
+        style={{ marginBottom: 70 }}>
+        <Col
+          xs={22}
+          sm={22}
+          md={20}
+          lg={18}
+          xl={16}>
+          <WorksSection />
         </Col>
       </Row>
     </>

@@ -50,7 +50,7 @@ const LanguageSwitcher = () => {
         }}
         trigger={['click']}
       >
-        <Button type="primary" shape="circle" size="large">
+        <Button type="primary" shape="circle" size="small">
           <GlobalOutlined />
         </Button>
       </Dropdown>

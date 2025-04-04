@@ -144,40 +144,39 @@ const CustomFooter = () => {
                   </Link>
                 </Space>
               </Col>
-            </Row>
-            <Row
-              justify='center'
-              align='middle'
-              style={{
-                marginTop: '40px',
-                paddingTop: '16px',
-              }}>
-              <Col
-                xs={24}
-                style={{ textAlign: 'center' }}>
-                <Text style={{ color: 'white' }}>{t('footer.copyright')}</Text>
-              </Col>
-              <Col
-                xs={24}
-                style={{ textAlign: 'center', marginTop: '10px' }}>
+              <Col>
                 <Space>
                   <Link
                     href='/en/support'
-                    style={{ color: 'white' }}>
+                    style={{
+                      color: 'white',
+                      fontSize: '14px',
+                      fontWeight: 'bold',
+                    }}>
                     {t('footer.support')}
                   </Link>
                   <Link
                     href='/en/privacy'
-                    style={{ color: 'white' }}>
+                    style={{
+                      color: 'white',
+                      fontSize: '14px',
+                      fontWeight: 'bold',
+                    }}>
                     {t('footer.privacyStatement')}
                   </Link>
                   <Link
                     href='/en/terms'
-                    style={{ color: 'white' }}>
+                    style={{
+                      color: 'white',
+                      fontSize: '14px',
+                      fontWeight: 'bold',
+                    }}>
                     {t('footer.termsOfUse')}
                   </Link>
-                  {/* <Link href="#" style={{ color: 'white' }}>{t('footer.cookies')}</Link> */}
+                  {/* <Link href="#"    style={{ color: 'white', fontSize: '16px', fontWeight: 'bold' }}>{t('footer.cookies')}</Link> */}
                 </Space>
+                <br />
+                <Text style={{ color: 'white' }}>{t('footer.copyright')}</Text>
               </Col>
             </Row>
           </div>

@@ -164,11 +164,11 @@ const Header = () => {
   }, [locale, i18n]);
 
   const menuItems = [
-    { key: 'home', label: 'HOME', link: '/' },
-    { key: 'servicess', label: 'SERVICES', link: `/${locale}/services` },
-    { key: 'ourWorks', label: 'OUR WORKS', link: `/${locale}/our_works` },
-    { key: 'about', label: 'ABOUT', link: `/${locale}/about` },
-    { key: 'contactUs', label: 'CONTACT US', link: `/${locale}/contact` },
+    { key: 'home', label: t('home'), link: `/${locale}/` },
+    { key: 'about', label: t('about'), link: `/${locale}/about` },
+    { key: 'services', label: t('service'), link: `/${locale}/services` },
+    { key: 'ourWorks', label: t('ourWorks'), link: `/${locale}/our_works` },
+    { key: 'contactUs', label: t('contactUs'), link: `/${locale}/contact` },
   ];
 
   return (
@@ -210,7 +210,7 @@ const Header = () => {
             {screens.sm ? (
               <Menu
                 mode='horizontal'
-                className={styles.headerMenu}>
+                className={styles.headerMenu} style={{fontSize: '16px'}}>
                 {menuItems.map((item) => (
                   <Menu.Item key={item.key}>
                     <Link href={item.link}>{item.label}</Link>
@@ -220,6 +220,11 @@ const Header = () => {
             ) : (
               <Button
                 type='text'
+                style={{
+                  float: 'inline-end',
+                  fontSize: '25px',
+                  marginRight: '10px'
+                }}
                 icon={<MenuOutlined />}
                 onClick={showDrawer}
               />
@@ -227,21 +232,22 @@ const Header = () => {
           </Col>
 
           {/* Right Section */}
-          {/* <Col>
-            <SearchOutlined className={styles.searchIcon} />
+          <Col style={{height: '65px'}}>
+            {/* <SearchOutlined className={styles.searchIcon} /> */}
             <LanguageSwitcher />
             <DownOutlined className={styles.dropdownIcon} />
-          </Col> */}
+          </Col>
         </Row>
 
         {/* Drawer for Mobile */}
         <Drawer
           placement='left'
           onClose={closeDrawer}
-          open={visible}>
+          open={visible}
+          className='custom-drawer'>
           <Menu mode='vertical'>
             {menuItems.map((item) => (
-              <Menu.Item key={item.key}>
+              <Menu.Item key={item.key}  onClick={closeDrawer}>
                 <Link href={item.link}>{item.label}</Link>
               </Menu.Item>
             ))}

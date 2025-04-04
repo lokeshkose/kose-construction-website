@@ -9,8 +9,14 @@ const CustomCarousel = ({
 }: any) => {
   return (
     <Carousel
-      autoplay={autoplay}
+      autoplay
       dotPosition={dotPosition}
+      autoplaySpeed={3000}
+      arrows={true}
+      effect='fade'
+      fade={true}
+       waitForAnimate={true}
+       speed={2800}
       className={styles.carouselContainer}>
       {images.map((image: any, index: number) => (
         <div

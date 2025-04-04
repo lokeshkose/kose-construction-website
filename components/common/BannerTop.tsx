@@ -233,12 +233,14 @@ const BannerTop: React.FC<BannerSectionProps> = ({
             width: '100vw',
             height: 'inherit',
             backgroundSize: '100% 100%',
+            objectFit: 'fill',
+            filter: 'brightness(1) contrast(1.2)'
           }}
         />
       )}
 
       {/* Overlay */}
-      <div
+      {/* <div
         className={styles['background-overlay']}
         style={{
           backgroundColor: token.colorBgBase,
@@ -249,7 +251,7 @@ const BannerTop: React.FC<BannerSectionProps> = ({
           height: '100%',
           opacity: 0.2, // Adjust opacity if needed
         }}
-      />
+      /> */}
 
       {/* Content Section */}
       <Row

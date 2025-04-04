@@ -21,7 +21,7 @@ const socialLinks = [
   { icon: <YoutubeOutlined />, url: 'https://youtube.com' },
 ];
 
-const ContactUsCard = ({ rightBgColor = '#4c51bf' }) => {
+const ContactUsCard = ({ rightBgColor = '#f4a900' }) => {
   const { addContact } = useContacts();
   const { t } = useTranslation('common');
   const [form] = Form.useForm();

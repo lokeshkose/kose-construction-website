@@ -66,7 +66,7 @@ const LoginCard: FC<LoginCardProps> = ({ onLogin }) => {
                     marginBottom: '20px',
                   }}>
                   <Image
-                    src='/logo.png'
+                    src='/jcb-logo.png'
                     alt='Galileo logo'
                     width={200}
                     height={50}

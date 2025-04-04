@@ -11,17 +11,16 @@ const CustomGallery = ({ images }: { images: string[] }) => {
     <div className={styles.galleryContainer}>
       <Swiper
         spaceBetween={10}
-        slidesPerView={3} // Adjust based on screen size
+        slidesPerView={1} // Adjust based on screen size
         loop={true}
         effect="coverflow" // Apply the Coverflow effect
         autoplay={{
           delay: 2500, // Time delay between slides (in ms)
           disableOnInteraction: false, // Don't stop autoplay on interaction
         }}
-        pagination
         modules={[Navigation, Pagination, Scrollbar, EffectCoverflow, Autoplay]}
         breakpoints={{
-          640: {
+          440: {
             slidesPerView: 1, // For small screens, show 1 slide per view
           },
           768: {
